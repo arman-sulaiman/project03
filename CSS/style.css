@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@400;700&display=swap');
+
+body{
+    font-family: 'Georama', sans-serif;
+    overflow-x: hidden; ;
+  
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold; 
+}
+#bannar{
+    background: url(../Attachments/bannar.jpg);
+    background-size: cover;
+    padding-top: 7rem; 
+    padding-bottom: 5rem; 
+    background-position: center;
+    background-attachment: fixed; 
+
+
+}
+
+#bannar h1{
+    font-weight: bold; 
+    color: #000; 
+   
+}
+
+#bannar p{
+    color: #000; 
+    font-size: 18px; 
+}
+
+#bannar button{
+    margin-right: 1rem; 
+}
+
+p{
+    text-align: justify; 
+}
+
+#introduction{
+    padding-top: 5rem; 
+}
+
+#aginst_corona{
+    padding-top: 5rem; 
+    padding-bottom: 5rem; 
+}
+
+#aginst_corona img{
+    height: 100px; 
+    width: 100px; 
+    border: 2px solid #000; 
+    border-radius: 50%; 
+    transition: all linear 0.2s;
+    
+
+}
+
+.card_x:hover .hover_eff{
+    border: 2px solid #198754; 
+    border-radius: 50%; 
+    transition: all linear 0.2s;
+    background-color: #19875463; 
+}
+
+#aginst_corona img:hover{
+    border: 2px solid #198754; 
+    border-radius: 50%; 
+    transition: all linear 0.2s;
+    background-color: #19875463; 
+}
+
+#daily_update img{
+    height: 100px; 
+    width: 100px; 
+    
+
+}
+
+#daily_update h3{
+    margin-top: 4rem; 
+}
+
+#blog{
+    margin-top: 5rem; 
+}
+
+#blog img{
+    height: 15rem; 
+    width: 12rem; 
+}
+
+#sign h3{
+    margin-top: 3rem; 
+}
+
+#sign p{
+    text-align: justify;
+} 
